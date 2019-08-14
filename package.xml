@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fsecommerce_Convertizer</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Dynamic landingpage that auto aligns with your AdWords ads to ensure that visitor see what ads promise</summary>
+    <description>convertizer - dynamic adwords landingpage&#xD;
+&#xD;
+Challenge&#xD;
+Creating landingpages in Magento is extremely time consuming and super complex. Especially when you think about ensuring to have the right landingpage for any AdWords keyword you book on! &#xD;
+&#xD;
+Solution&#xD;
+convertizer is the worlds first dynamic landingpage: Once you connected your Magento Onlineshop with convertizer by using this module, you simply choose what Google AdWords should see a high converting landingpage. User coming from your AdWords will see automatically the best matching products to your ads. &#xD;
+convertizer creates within minutes high converting landingpages for Google AdWords traffic. Using convertizer enables you to show visitors what they search for. The landingpage auto aligns with your ads and dynamically shows the products matching to the keywords of your ads. WOW!</description>
+    <notes>Please full-backup your Magento (files and database before installing this extension.</notes>
+    <authors><author><name>FS eCommerce GmbH</name><user>convertizer</user><email>sales@convertizer.com</email></author></authors>
+    <date>2016-04-21</date>
+    <time>06:58:50</time>
+    <contents><target name="magelocal"><dir name="Fsecommerce"><dir name="Convertizer"><dir name="Block"><dir name="Adminhtml"><file name="Feed.php" hash="676448c8583ad7ae11070d9468184f95"/></dir></dir><dir name="Helper"><file name="Data.php" hash="0aafb55e931f7f4a4a9a2064dab7d358"/></dir><dir name="Model"><dir name="Adminhtml"><file name="Attribute.php" hash="8d0deaa682477f711bdf8c36ad94487e"/><file name="Category.php" hash="36ca04071700c37d92eadc5df2ca48da"/><file name="Producttype.php" hash="cb6705aa83eb2ed4a4b872ba9830d04f"/><file name="Store.php" hash="b5c1ee01a538b33c2ab96cdf0da51461"/></dir><file name="Feed.php" hash="830333bc6d99ce42244296d66a071cfa"/></dir><dir name="controllers"><file name="AddController.php" hash="9324435715de603f75ff8f596ea79922"/><dir name="Adminhtml"><file name="FeedController.php" hash="ae62047bc73cb8c859a76310101ceae3"/></dir></dir><dir name="etc"><file name="config.xml" hash="8cee9fedfdbaaaf7a6293128fd42f9a4"/><file name="system.xml" hash="8528630a7a107ec726acb33d0d775770"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Fsecommerce_Convertizer.xml" hash="e510a7119308f4e66b0608c106ab6c79"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="convertizer"><file name="feed.phtml" hash="3ff3d1bdf2de3a76e19a02b5094eddda"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="fse"><dir name="convertizer"><file name="convertizer_tracking.phtml" hash="0d0fd37425f89bb27c3d01395ab0bb1d"/></dir></dir></dir><dir name="layout"><file name="fsecommerce_convertizer.xml" hash="69aa25a87b4aeadcc70f1e19cf68664f"/></dir></dir></dir></dir></target><target name="magemedia"><dir name="convertizer"><file name="readme.txt" hash="0aa0ded81c80c93176c14b295d6d66d9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>7.0.5</max></php></required></dependencies>
+</package>
