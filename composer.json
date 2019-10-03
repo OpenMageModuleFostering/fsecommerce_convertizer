@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Fsecommerce_Convertizer",
+    "name": "OpenMageModuleFostering\/Fsecommerce_Convertizer",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "Dynamic landingpage that auto aligns with your AdWords ads to ensure that visitor see what ads promise",
     "authors": [
-    {
-        "name": "FS eCommerce GmbH",
-        "email": "sales@convertizer.com"
-    }
-],
+        {
+            "name": "FS eCommerce GmbH",
+            "email": "sales@convertizer.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
